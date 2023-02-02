@@ -1,0 +1,49 @@
+.wheel-motor {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+
+    .wheel {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    .product {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(60deg);
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .product1 {
+        transform: translate(-50%, -50%) rotate(0deg);
+        background-color: aqua;
+        top: 0%;
+    }
+
+    .product2 {
+        transform: translate(-50%, -50%) rotate(0deg);
+        background-color: bisque;
+        left: 100%;
+    }
+
+    .product3 {
+        transform: translate(-50%, -50%) rotate(0deg);
+        background-color: aquamarine;
+        top: 100%;
+    }
+
+    .product4 {
+        transform: translate(-50%, -50%) rotate(0deg);
+        background-color: yellow;
+        left: 0%;
+    }
+}
+
+/* Add more product styles as needed, adjusting the rotation value for each */
